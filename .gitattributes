@@ -1,3 +1,4 @@
 . filter=lfs diff=lfs merge=lfs -text
 frames filter=lfs diff=lfs merge=lfs -text
 frames_as filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
