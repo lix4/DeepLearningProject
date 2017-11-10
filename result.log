@@ -1,0 +1,118 @@
+2017-11-09 17:56:39.416115: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 17:56:39.416149: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 17:56:39.416154: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 17:56:39.416158: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 17:56:39.416162: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 17:56:39.828745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:06:00.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-11-09 17:56:39.828780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-09 17:56:39.828785: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-09 17:56:39.828799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0)
+2017-11-09 17:56:39.840628: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 11.17G (11996954624 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+(20520, 240, 240, 3)
+./Trimmed1/trim1_resized.mp4
+4187
+./Trimmed2/trim2_resized.mp4
+2267
+./Trimmed3/trim3_resized.mp4
+4570
+./Trimmed4/trim4_resized.mp4
+5036
+./Trimmed5/trim5_resized.mp4
+4460
+./Data1/E8D2.csv
+./Data1/E84F.csv
+./Data1/E91B.csv
+./Data1/E863.csv
+./Data1/E887.csv
+./Data1/E906.csv
+./Data1/E912.csv
+(4187, 56)
+./Data2/E8D2.csv
+./Data2/E84F.csv
+./Data2/E91B.csv
+./Data2/E863.csv
+./Data2/E887.csv
+./Data2/E906.csv
+./Data2/E912.csv
+(6454, 56)
+./Data3/E8D2.csv
+./Data3/E84F.csv
+./Data3/E91B.csv
+./Data3/E863.csv
+./Data3/E887.csv
+./Data3/E906.csv
+./Data3/E912.csv
+(11024, 56)
+./Data4/E8D2.csv
+./Data4/E84F.csv
+./Data4/E91B.csv
+./Data4/E863.csv
+./Data4/E887.csv
+./Data4/E906.csv
+./Data4/E912.csv
+(16060, 56)
+./Data5/E8D2.csv
+./Data5/E84F.csv
+./Data5/E91B.csv
+./Data5/E863.csv
+./Data5/E887.csv
+./Data5/E906.csv
+./Data5/E912.csv
+(20520, 56)
+Index(['Time Stamp', 'Time Stamp Unix', 'Low Noise Accelerometer X',
+       'Low Noise Accelerometer Y', 'Low Noise Accelerometer Z', 'Gyroscope X',
+       'Gyroscope Y', 'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z'],
+      dtype='object')
+Index(['Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z'],
+      dtype='object')
+(15000, 2, 240, 240, 3)
+(5519, 2, 240, 240, 3)
+(15000, 42)
+(5519, 42)
+trial = 1/1
+Using TensorFlow backend.
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+train_err 58.5078468323
+val_err 64.6963500977
+test_err 6318.43238013
