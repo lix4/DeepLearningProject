@@ -263,12 +263,20 @@ for i in range(num):
 
 print(np.isnan(y_train).sum())
 
-y_train.var()
+
+#standardize testing and training input
+(x_test-x_test.mean())/x_test.std()
+(x_train-x_train.mean())/x_train.std()
+
+print('variance of y_train')
+print(y_train.var())
+print('variance of y_test')
+print(y_test.var())
 
 
 # In[ ]:
 
-N = 100  # need to adjust this to fit data
+N = 15000  # need to adjust this to fit data
 EPOCHS = 10
 BATCH = 100
 TRIALS = 1  # need to increase trials eventually
