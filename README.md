@@ -8,6 +8,9 @@ The goal of this project is to use a video to determine if and how blocks in the
 ## Dataset
 Our data was collected from trials that students did last summer. We have 6 folders of data with each one containing one video and one csv dataset for each of seven different blocks. After incorporating them into an integrated big dataset, we will get a very large dataset for training and validation.
 
+![image](https://user-images.githubusercontent.com/12198981/32744545-d5da32a2-c87d-11e7-902e-6101416572ce.png)
+
+
 ## Dataset Analysis
 The videos in each folder are used as input, with the sensor values as an output.  Each block’s related csv file includes eight features.  These features are: time stamp, time stamp unix, low noise acceleration X, low noise acceleration Y, low noise acceleration Z, gyroscope X, gyroscope Y, gyroscope Z.  Both the ‘time stamp’ and ‘time stamp unix’ are the same feature in different formats.  Additionally, the csv file should be synced with the input (video) in such a way that time is not needed as a feature at all.  This leaves the output to be a set of six features per block for a total of 42 features.  
 
