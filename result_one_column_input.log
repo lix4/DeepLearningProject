@@ -1,0 +1,399 @@
+2017-11-13 11:16:53.297976: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-13 11:16:53.298008: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-13 11:16:53.298013: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-13 11:16:53.298016: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-13 11:16:53.298019: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-13 11:16:53.712371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:06:00.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-11-13 11:16:53.712416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-13 11:16:53.712425: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-13 11:16:53.712437: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0)
+2017-11-13 11:16:53.734203: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 11.17G (11996954624 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+and away we go
+(20520, 240, 240, 3)
+./Trimmed1/trim1_resized.mp4
+4187
+./Trimmed2/trim2_resized.mp4
+2267
+./Trimmed3/trim3_resized.mp4
+4570
+./Trimmed4/trim4_resized.mp4
+5036
+./Trimmed5/trim5_resized.mp4
+4460
+./Data1/E8D2.csv
+./Data1/E84F.csv
+./Data1/E91B.csv
+./Data1/E863.csv
+./Data1/E887.csv
+./Data1/E906.csv
+./Data1/E912.csv
+(4187, 56)
+./Data2/E8D2.csv
+./Data2/E84F.csv
+./Data2/E91B.csv
+./Data2/E863.csv
+./Data2/E887.csv
+./Data2/E906.csv
+./Data2/E912.csv
+(6454, 56)
+./Data3/E8D2.csv
+./Data3/E84F.csv
+./Data3/E91B.csv
+./Data3/E863.csv
+./Data3/E887.csv
+./Data3/E906.csv
+./Data3/E912.csv
+(11024, 56)
+./Data4/E8D2.csv
+./Data4/E84F.csv
+./Data4/E91B.csv
+./Data4/E863.csv
+./Data4/E887.csv
+./Data4/E906.csv
+./Data4/E912.csv
+(16060, 56)
+./Data5/E8D2.csv
+./Data5/E84F.csv
+./Data5/E91B.csv
+./Data5/E863.csv
+./Data5/E887.csv
+./Data5/E906.csv
+./Data5/E912.csv
+(20520, 56)
+Index(['Time Stamp', 'Time Stamp Unix', 'Low Noise Accelerometer X',
+       'Low Noise Accelerometer Y', 'Low Noise Accelerometer Z', 'Gyroscope X',
+       'Gyroscope Y', 'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Time Stamp', 'Time Stamp Unix',
+       'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z'],
+      dtype='object')
+Index(['Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z', 'Low Noise Accelerometer X', 'Low Noise Accelerometer Y',
+       'Low Noise Accelerometer Z', 'Gyroscope X', 'Gyroscope Y',
+       'Gyroscope Z'],
+      dtype='object')
+(15000, 240, 240, 3)
+(5520, 240, 240, 3)
+(15000, 42)
+(5520, 42)
+[4186    0]
+nan
+[4186    1]
+nan
+[4186    2]
+nan
+[4186    3]
+nan
+[4186    4]
+nan
+[4186    5]
+nan
+[6453    0]
+nan
+[6453    1]
+nan
+[6453    2]
+nan
+[6453    3]
+nan
+[6453    4]
+nan
+[6453    5]
+nan
+0
+variance of y_train
+15895.7985824
+variance of y_test
+6324.96204399
+trial = 1/25
+64
+128
+256
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 3, d2: 2, filters: 32, nodes: 16, stopping: 15, drop: 0.1
+train_err 14783.0448927
+val_err 19552.6411499
+test_err 6286.70264254
+trial = 2/25
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 1, filters: 64, nodes: 64, stopping: 10, drop: 0.5
+train_err 14687.0703807
+val_err 19541.8168046
+test_err 6271.40399671
+trial = 3/25
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 3, d2: 2, filters: 64, nodes: 128, stopping: 10, drop: 0.5
+train_err 14053.3428452
+val_err 19698.396166
+test_err 6689.59951613
+trial = 4/25
+32
+64
+128
+256
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 2, filters: 16, nodes: 16, stopping: 15, drop: 0.5
+train_err 14831.8866063
+val_err 19573.0794764
+test_err 6302.51278411
+trial = 5/25
+32
+64
+128
+256
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 2, filters: 16, nodes: 64, stopping: 10, drop: 0.5
+train_err 14490.647507
+val_err 19694.4467988
+test_err 6297.29223165
+trial = 6/25
+128
+256
+512
+1024
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 3, filters: 64, nodes: 64, stopping: 10, drop: 0.5
+train_err 14929.3520578
+val_err 19574.6138577
+test_err 6311.12155728
+trial = 7/25
+128
+256
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 3, filters: 64, nodes: 64, stopping: 10, drop: 0.1
+train_err 14360.9543656
+val_err 19514.5382781
+test_err 6421.31349971
+trial = 8/25
+64
+128
+256
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 3, d2: 2, filters: 32, nodes: 64, stopping: 10, drop: 0.5
+train_err 14450.8434993
+val_err 19474.4333611
+test_err 6362.1367046
+trial = 9/25
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 2, filters: 32, nodes: 16, stopping: 15, drop: 0.5
+train_err 14859.0677216
+val_err 19551.2914916
+test_err 6290.36175941
+trial = 10/25
+64
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 1, filters: 64, nodes: 32, stopping: 15, drop: 0.5
+train_err 14756.7484678
+val_err 19567.8192107
+test_err 6294.75783778
+trial = 11/25
+16
+32
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 1, filters: 16, nodes: 32, stopping: 15, drop: 0.5
+train_err 14578.1325432
+val_err 19535.0815427
+test_err 6279.94908433
+trial = 12/25
+16
+32
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 1, filters: 16, nodes: 128, stopping: 15, drop: 0.5
+train_err 13854.0355089
+val_err 19685.3447035
+test_err 6262.25472367
+trial = 13/25
+64
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 2, filters: 32, nodes: 32, stopping: 15, drop: 0.1
+train_err 14705.4951868
+val_err 20085.7259839
+test_err 6966.90973959
+trial = 14/25
+16
+32
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 1, filters: 16, nodes: 64, stopping: 15, drop: 0.1
+train_err 14274.768407
+val_err 19475.2359456
+test_err 6292.02787239
+trial = 15/25
+16
+32
+64
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 3, d2: 1, filters: 16, nodes: 32, stopping: 15, drop: 0.1
+train_err 14634.5476082
+val_err 19546.2877218
+test_err 6285.24575113
+trial = 16/25
+64
+128
+256
+512
+1024
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 5, d2: 3, filters: 32, nodes: 16, stopping: 15, drop: 0.1
+train_err 14910.3445116
+val_err 19677.8902044
+test_err 6360.34477632
+trial = 17/25
+64
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 3, filters: 32, nodes: 16, stopping: 10, drop: 0.1
+train_err 14909.8064153
+val_err 19563.8959394
+test_err 6298.63740563
+trial = 18/25
+64
+128
+256
+512
+1024
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 5, d2: 2, filters: 32, nodes: 128, stopping: 10, drop: 0.1
+train_err 14552.3873324
+val_err 24855.8913208
+test_err 8283.40666998
+trial = 19/25
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 3, filters: 32, nodes: 128, stopping: 10, drop: 0.1
+train_err 13913.7527412
+val_err 19574.3092225
+test_err 6289.89118886
+trial = 20/25
+128
+256
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 2, filters: 64, nodes: 128, stopping: 10, drop: 0.5
+train_err 13670.1121445
+val_err 19503.3298124
+test_err 6299.13031091
+trial = 21/25
+64
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 4, d2: 2, filters: 32, nodes: 32, stopping: 10, drop: 0.1
+train_err 14690.0660062
+val_err 19553.2607491
+test_err 6297.94079688
+trial = 22/25
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 2, d2: 2, filters: 32, nodes: 64, stopping: 15, drop: 0.1
+train_err 13994.9834937
+val_err 19606.9130595
+test_err 6306.53068183
+trial = 23/25
+32
+64
+128
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 3, d2: 2, filters: 16, nodes: 128, stopping: 15, drop: 0.5
+train_err 13798.111061
+val_err 19595.9111388
+test_err 6351.64221672
+trial = 24/25
+128
+256
+512
+1024
+2048
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 5, d2: 2, filters: 64, nodes: 128, stopping: 10, drop: 0.5
+train_err 14651.1442259
+val_err 19530.9028042
+test_err 6277.68379316
+trial = 25/25
+Using TensorFlow backend.
+32
+64
+128
+256
+512
+keys
+dict_keys(['val_loss', 'val_acc', 'loss', 'acc'])
+d1: 5, d2: 3, filters: 16, nodes: 128, stopping: 10, drop: 0.1
+train_err 14739.8075813
+val_err 19500.7470632
+test_err 6290.16243502
